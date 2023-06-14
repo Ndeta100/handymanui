@@ -1,0 +1,4 @@
+.non-footer {
+    min-height: 100vh;
+    height: fit-content;
+  }

@@ -1,0 +1,96 @@
+.header nav {
+    width: 100%;
+}
+
+.header ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+  
+.header ul {
+    background-color: rgb(37, 0, 1);
+    padding: 0;
+    border-radius: 10px;
+}
+
+.header ul li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.header i {
+    color: #000;
+}
+
+.header .active {
+    background-color: rgb(252, 186, 4);
+}
+
+.header #logout {
+    background-color: rgb(165, 1, 4);
+    color: #fff;
+    margin: 12px;
+    border-radius: 10px;
+    padding: 6px;
+    font-weight: 700;
+    transition: opacity 0.25s;
+    border: none;
+    float: right;
+}
+
+.header #logout:hover {
+    opacity: 0.75;
+}
+
+.header #home-link {
+    text-decoration: none;
+    color: #000;
+    transition: opacity 0.25s;
+}
+
+.header #home-link:hover {
+    opacity: 0.75;
+}
+
+body {
+    background-color: rgb(243, 243, 243)
+}
+
+.card-header {
+    color: rgb(187, 103, 142);
+    background-color: rgb(37, 0, 1);
+}
+
+.card-body {
+    color:rgb(46, 37, 50);
+}
+
+.card-body h4 {
+    color:rgb(187, 103, 142);
+}
+
+/* Turns navbar vertical for mobile screens */
+@media only screen and (max-width: 550px) {
+    .header nav {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .header ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .header ul li a {
+        width: 100%;
+    }
+
+    .header #logout {
+        float: none;
+    }
+}
